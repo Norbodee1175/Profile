@@ -1,0 +1,106 @@
+@font-face{
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face{
+    font-family: PoppinsSB;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+.nav{
+    font-family: Poppins;
+    font-size: 13px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 12%;
+    background-color: #c5c6d0;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+  
+.nav li a, .inputbtn {
+    display: block;
+    color: black;
+    padding: 9px 20px;
+    text-decoration: none;
+}
+
+.nav li a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+  
+.nav li a:hover:not(.active), .inputbtn:hover {
+    background-color: #555;
+    color: white;
+}
+.nav li.dropdown {
+    display: block;
+    cursor: pointer;
+}
+
+.dropdown-input {
+    display: none;
+    position: absolute;
+    border: none;
+    font-family: Poppins;
+    background-color: #adadc9;
+    width: 100%;
+    z-index: 1;
+}
+.dropdown-input a {
+    display: block;
+    text-decoration: none;
+}
+.dropdown-input a:hover {
+    color: white;
+    background-color: #555;
+}
+.dropdown:hover .dropdown-input {
+    display: block;
+}
+
+.userpic{
+    width: 50px;
+    position: fixed;
+    right: 0;
+}
+  
+.dropdown-user {
+    position: fixed;
+    right: 55px;
+}
+.userbtn {
+    font-family: Poppins;
+    font-size: 15px;
+    background-color: #576B9E;
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-logout {
+    font-family: Poppins;
+    font-size: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    background-color: #E63F30;
+    min-width: 130px;
+    z-index: 1;
+}
+.dropdown-logout:hover {
+    color: black;
+}
+.dropdown-user:hover .dropdown-logout {
+    display: block;
+}

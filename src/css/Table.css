@@ -1,0 +1,139 @@
+@font-face{
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face{
+    font-family: PoppinsSB;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+.showuser{
+    margin: 2.5%;
+    font-family: Poppins;
+    border-collapse: collapse;
+    width: 95%;
+}
+.showuser td, .showuser th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 13px;
+}
+.showuser tr{
+    text-align: center;
+}
+.showuser tr:nth-child(even){background-color: #f2f2f2;}
+.showuser tr:hover {background-color: #ddd;}
+.showuser th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    /* background-color: #04AA6D; */
+    /* background-color: #288ba8; */
+    background-color: #009879;
+    color: white;
+}
+
+.showuserfiltered{
+    margin: 2.5%;
+    font-family: Poppins;
+    border-collapse: collapse;
+    width: 400%;
+}
+.showuserfiltered td, .showuserfiltered th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 13px;
+}
+.showuserfiltered tr{
+    text-align: center;
+}
+.showuserfiltered tr:nth-child(even){background-color: #f2f2f2;}
+.showuserfiltered tr:hover {background-color: #ddd;}
+.showuserfiltered th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #009879;
+    color: white;
+}
+
+.vmitable{
+    margin: 2.5%;
+    font-family: Poppins;
+    border-collapse: collapse;
+    width: 130%;
+}
+.vmitable td, .vmitable th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    font-size: 13px;
+}
+.vmitable tr{
+    text-align: center;
+}
+.vmitable tr:nth-child(even){background-color: #f2f2f2;}
+.vmitable tr:hover {background-color: #ddd;}
+.vmitable th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #009879;
+    color: white;
+}
+
+.menupages{
+    font-family: Poppins;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.menupages img{
+    cursor: pointer;
+    width: 25px;
+}
+.menupages input{
+    width: 70px;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid;
+    outline: none;
+}
+.menupages select{
+    width: 110px;
+    height: 30px;
+    padding: 0 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid;
+    outline: none;
+}
+
+.editbtn{
+    font-family: Poppins;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: #1CC88A;
+    width: 50px;
+}
+.editbtn:hover{
+    color: black;
+}
+
+.deletebtn{
+    font-family: Poppins;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: #E63F30;
+    width: 80px;
+}
+.deletebtn:hover{
+    color: black;
+}

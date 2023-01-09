@@ -1,0 +1,104 @@
+@font-face{
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+
+.largeinput{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: #5579c6;
+    font-family: Poppins;
+}
+.centerlargeinput{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    height: 600px;
+    border-radius: 20px;
+    background-color: #a0c4ff;
+}
+.centerlargeinput h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.centerlargeinput .left {
+    float: left;
+    width: 400px;
+    padding: 0 45px;
+    box-sizing: border-box;
+    position: relative;
+}
+.centerlargeinput .right {
+    float: right;
+    width: 400px;
+    padding: 0 45px;
+    box-sizing: border-box;
+    position: relative;
+}
+.centerlargeinput .center {
+    width: 400px;
+    padding: 0 45px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 20px 400px;
+}
+.notdatetime input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 10px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.notdatetime select{
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 10px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.notdatetime .remark{
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 10px;
+    height: 120px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;  
+}
+.largedatetime{
+    width: 100%;
+    padding: 0 10px;
+    margin: 10px 0;
+    height: 40px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.largeinputbtn{
+    width: 60%;
+    height: 50px;
+    border: 1px solid;
+    background: #1260cc;
+    border-radius: 25px;
+    font-size: 20px;
+    color: white;
+    margin: 0 20%;
+}
+.largeinputbtn:hover{
+    background-color: #1337c0;
+}

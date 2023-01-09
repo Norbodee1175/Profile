@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: PoppinsSB;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+.footer1{
+    margin-top: 110px;
+    margin-left: 12%;
+    bottom: 0%;
+    width: 88%;
+    font-family: Poppins;
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+}

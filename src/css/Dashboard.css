@@ -1,0 +1,54 @@
+@font-face{
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face{
+    font-family: PoppinsSB;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+.dashboard{
+    margin-left: 12%;
+    margin-top: 2.5%;
+}
+.dashboardhead{
+    margin-left: 20px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+}
+.dashboardbar{
+    margin: 2.5%;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+}
+.dashboardbar1{
+    margin: 0 2.5%;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    width: 30%;
+    float: left;
+}
+.dashboardbar2{
+    margin: 0 2.5%;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    width: 30%;
+    float: right;
+}
+.dashboardbar3{
+    margin: 0 35%;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 14px;
+    width: 30%;
+}
+.dashboardpie{
+    margin: 0% 25%;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 15px;
+}

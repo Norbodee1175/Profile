@@ -1,0 +1,83 @@
+@font-face{
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face{
+    font-family: PoppinsSB;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+.startbake{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 140vh;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: #5579c6;
+    font-family: Poppins;
+}
+.startbakecenter{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 450px;
+    height: 840px;
+    border-radius: 20px;
+    background-color: #a0c4ff;
+}
+.startbakecenter h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.startbakecenter form{
+    padding: 0 70px;
+    box-sizing: border-box;
+    position: relative;
+    margin: 30px 0;
+}
+.startbakecenter form .bakinginput input{
+    width: 100%;
+    margin: 5px 0;
+    padding: 0 10px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.startbakecenter form .bakinginput select{
+    width: 100%;
+    margin: 5px 0;
+    padding: 0 10px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.datetime{
+    width: 100%;
+    padding: 0 10px;
+    margin: 5px 0;
+    height: 40px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+.startbakecenter .closebtn{
+    position: absolute;
+    border: none;
+    background-color: #e3242b;
+    border-radius: 0 15px;
+    top: 0;
+    right: 0;
+    width: 80px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}

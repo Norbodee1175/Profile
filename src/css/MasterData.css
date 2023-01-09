@@ -1,0 +1,122 @@
+@font-face{
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face{
+    font-family: PoppinsSB;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+/* .Navmasterdata{
+    background-color: #808080;
+    width: 100%;
+    height: 50px;
+}
+.Navmasterdata a{
+    font-family: Poppins;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+} */
+.masterdata{
+    margin-left: 12%;
+    margin-top: 60px;
+}
+.masterdata .headmasterdata{
+    margin-left: 20px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+}
+.masterdata .headmasterdata1{
+    margin-top: 23%;
+    margin-left: 20px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+}
+.masterdata .bodymasterdata{
+    margin-left: 50px;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 16px;
+}
+.addinputbtn{
+    margin-left: 2.5%;
+    font-family: Poppins;
+    font-size: 18px;
+    background-color: #789CCE;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.addinputbtn:hover{
+    background-color: #576B9E;
+    color: white;
+}
+.exportbtn{
+    margin-left: 2.5%;
+    font-family: Poppins;
+    font-size: 18px;
+    background-color: #1CC88A;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.exportbtn:hover{
+    background-color: #04AA6D;
+    color: white;
+}
+
+.education1{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 19.5%;
+    border-radius: 25px;
+    border-color: white;
+    background-color: #4e73df;
+    padding: 20px;
+    width: 20%;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 5px 5px #555;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: PoppinsSB;
+}
+.education2{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 48.5%;
+    border-radius: 25px;
+    border-color: white;
+    background-color: #009879;
+    padding: 20px;
+    width: 20%;
+    height: 200px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 5px 5px #555;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    font-family: PoppinsSB;
+}
+.education1:hover, .education2:hover{
+    color: black;
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+.education1 img, .education2 img{
+    width: 80px;
+    margin-top: 10%;
+}

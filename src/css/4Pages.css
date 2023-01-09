@@ -1,0 +1,155 @@
+@font-face{
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face{
+    font-family: PoppinsSB;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+/* .color{
+    background-color: #d9dddc;
+    background-color: #c5c6d0;
+    background-color: #adadc9;
+    background-color: #7f7d9c;
+    background-color: #4169e1;
+    background-color: #4e73df;
+    background-color: #a0c4ff;
+    background-color: #009879;
+    background-color: #1cc88a;
+    background-color: #ffce30;
+    background-color: #e3242b;
+    background-color: #e83845;
+    background-color: #e389b9;
+    background-color: #746ab0;
+    background-color: #288ba8;
+} */
+
+.fourpages{
+    margin-left: 12%;
+    margin-top: 60px;
+}
+.fourpageshead{
+    margin-left: 20px;
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: center;
+}
+
+.rhvaluereject{
+    color: red;
+}
+.rhpass{
+    font-family: Poppins;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: #1cc88a;
+    width: 70px;
+}
+.rhreject{
+    font-family: Poppins;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: #e3242b;
+    width: 70px;
+}
+
+.actionsbtn{
+    margin-left: 2.5%;
+    font-family: Poppins;
+    font-size: 18px;
+    background-color: #fdd023;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.actionsbtn:hover{
+    background-color: #f6c23e;
+    color: white;
+}
+
+.waitingbtn{
+    font-family: Poppins;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: #f6c23e;
+    width: 90px;
+}
+.waitingbtn:hover{
+    color: black;
+}
+.endbakebtn{
+    font-family: Poppins;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: #4e73df;
+    width: 90px;
+}
+.endbakebtn:hover{
+    color: black;
+}
+.finishbtn{
+    font-family: Poppins;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: #1cc88a;
+    /* background-color: #20c997; */
+    width: 90px;
+}
+.finishbtn:hover{
+    color: black;
+}
+.startrhbtn{
+    font-family: Poppins;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: #4e73df;
+    width: 90px;
+}
+.startrhbtn:hover{
+    color: black;
+}
+.endrhbtn{
+    font-family: Poppins;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: #288ba8;
+    width: 90px;
+}
+.endrhbtn:hover{
+    color: black;
+}
+.unablebtn{
+    font-family: Poppins;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: #e83845;
+    width: 90px;
+}
+.unablebtn:hover{
+    color: black;
+}

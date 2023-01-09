@@ -1,0 +1,115 @@
+@font-face{
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face{
+    font-family: PoppinsSB;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+.bodyhome{
+    margin-left: 12%;
+    margin-top: 40px;
+    height: 415px;
+}
+.headhome{
+    text-align: center;
+    font-size: 20px;
+    font-family: PoppinsSB;
+}
+.pages{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-family: PoppinsSB;
+}
+.pages:hover{
+    color: black;
+}
+
+.page1{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 2.4%;
+    border-radius: 25px;
+    border-color: white;
+    background-color: #6495ED;
+    padding: 20px;
+    width: 19%;
+    height: 180px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 5px 5px #555;
+}
+.page2{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 23.8%;
+    border-radius: 25px;
+    border-color: white;
+    background-color: #5DBB63;
+    padding: 20px;
+    width: 19%;
+    height: 180px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 5px 5px #555;
+}
+.page3{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 45.2%;
+    border-radius: 25px;
+    border-color: white;
+    background-color: #E83845;
+    padding: 20px;
+    width: 19%;
+    height: 180px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 5px 5px #555;
+}
+.page4{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 66.6%;
+    border-radius: 25px;
+    border-radius: 25px;
+    border-color: white;
+    background-color: #FFB347;
+    padding: 20px;
+    width: 19%;
+    height: 180px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 5px 5px #555;
+}
+.page5{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 23.8%;
+    border-radius: 25px;
+    border-color: white;
+    background-color: #6495ED;
+    padding: 20px;
+    width: 19%;
+    height: 180px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 5px 5px #555;
+}
+.page6{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 45.2%;
+    border-radius: 25px;
+    border-color: white;
+    background-color: #FFB347;
+    padding: 20px;
+    width: 19%;
+    height: 180px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 5px 5px #555;
+}

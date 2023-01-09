@@ -1,0 +1,37 @@
+@font-face{
+    font-family: Poppins;
+    src: url(../fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face{
+    font-family: PoppinsSB;
+    src: url(../fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+.bodyadmin{
+    margin-left: 12%;
+    margin-top: 60px;
+}
+
+.headadmin{
+    margin-left: 20px;
+    text-align: left;
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: center;
+}
+
+.adduserbtn{
+    margin-left: 2.5%;
+    font-family: Poppins;
+    font-size: 18px;
+    background-color: #789CCE;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.adduserbtn:hover{
+    background-color: #576B9E;
+    color: white;
+}

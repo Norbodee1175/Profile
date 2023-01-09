@@ -1,0 +1,36 @@
+@font-face{
+    font-family: Poppins;
+    src: url(/react-vite-win/src/fonts/Poppins/Poppins-Light.ttf);
+}
+
+.MemoryGame {
+    text-align: center;
+    margin-left: 12%;
+    margin-top: 60px;
+}
+.MemoryGame .head{
+    font-family: Poppins;
+    font-size: 20px;
+    text-align: center;
+}
+.newgamebtn {
+    background: none;
+    border: 2px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #4e73df;
+}
+.newgamebtn:hover {
+    background-color: #ffce30;
+    color: black;
+}
+.card-grid {
+    margin: 30px 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
