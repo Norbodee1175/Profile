@@ -26,36 +26,24 @@ export const NavBar = () => {
           <ul>
               <br/><li><img src={engineer} alt="engineer" width="100%"></img></li><br/>
               <li><NavLink to = '/' activeclassname="active">Home</NavLink></li>
-              <li className='dropdown'>
-                <a className='inputbtn'>Resume</a>
-                <div className='dropdown-input'>
-                {
-                  getRoles == 'Emperors' || getRoles == 'Warlords' ? 
-                    <NavLink to = '/Personal' activeclassname="active">Personal</NavLink>
-                  : null
-                }
-                {
-                  getRoles == 'Emperors' || getRoles == 'Rookies' ? 
-                  <>
-                    <NavLink to = '/Education' activeclassname="active">Education</NavLink>
-                    <NavLink to = '/Profile' activeclassname="active">Profile</NavLink>
-                  </>
-                  : null
-                }
-                {
-                  getRoles == 'Emperors' || getRoles == 'Warlords' ? 
-                    <NavLink to = '/Experience' activeclassname="active">Experience</NavLink>
-                  : null
-                }
-                </div>
-              </li>
               {
-                getRoles == 'Emperors' ? 
-                <li><NavLink to = '/AdminProfile' activeclassname="active">Admin Profile</NavLink></li>
+                getRoles == 'Emperors' || getRoles == 'Warlords' ? 
+                  <li><NavLink to = '/Personal' activeclassname="active">Personal</NavLink></li>
                 : null
               }
-              <li><NavLink to = '/Dashboard' activeclassname="active">Dashboard</NavLink></li>
-              <li><NavLink to = '/Report' activeclassname="active">Report Table</NavLink></li>
+              {
+                getRoles == 'Emperors' || getRoles == 'Rookies' ? 
+                <>
+                  <li><NavLink to = '/Education' activeclassname="active">Education</NavLink></li>
+                  <li><NavLink to = '/Profile' activeclassname="active">Profile</NavLink></li>
+                </>
+                : null
+              }
+              {
+                getRoles == 'Emperors' || getRoles == 'Warlords' ? 
+                  <li><NavLink to = '/Experience' activeclassname="active">Experience</NavLink></li>
+                : null
+              }
               {
                 getRoles == 'Emperors' ? 
                 <li className='dropdown'>
