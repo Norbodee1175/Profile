@@ -48,18 +48,18 @@ export const Education = () => {
                             <div className='body'>
                                 <img src={University} width='110px'></img><br/><br/>
                                 Studying in the Faculty of Engineering, Robotics & AI Engineering at King Mongkut’s Institute of Technology Ladkrabang<br/><br/>
-                                GPA: 3.30
+                                GPA: 3.37
                             </div>
                         </div>
                     </section>
                 </Popup>
-                <div className='headmasterdata1'>My Language Skills</div><br/>
+                {/* <div className='headmasterdata1'>My Language Skills</div><br/>
                 <div className='bodymasterdata'>
                     <div>
                         Proficiency in Thai - Native language<br/><br/>
                         Proficiency in English - IELTS 5.5
                     </div>
-                </div>
+                </div> */}
             </div>
         </>
     )

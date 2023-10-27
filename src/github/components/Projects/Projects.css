@@ -6,3 +6,19 @@
     margin: 0 auto;
     margin-left: 12%;
 }
+
+.imgnvdo {
+    padding: 2em;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 12%;
+}
+
+.imgnvideo {
+    display: flex;
+    width: 650px;
+    margin: 50px auto;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}

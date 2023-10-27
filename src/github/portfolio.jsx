@@ -4,9 +4,11 @@ const about = {
     role: 'Robotics and AI Engineer student at KMITL',
     description:
     <div>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am a student from Robotics and AI Engineering, so I have basic coding that is C/C++, Python3 and JavaScript. I also have skills in 3D design such as Fusion360 and SketchUp.<br/><br/>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am good at the English language. I am a responsible person, work hard and have good teamwork. I love to study, research, find tricks and solutions from the internet if I don’t know how to do the work.<br/><br/>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I was an intern at Seagate, and I wrote a website for production by using React JS as frontend, Flask as backend and Oracle as database.
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am a student from Robotics and AI Engineering, so I have coding and AI skill that is C/C++, Python3, ReactJS, NodeJS, JavaScript and Yolov7. I also have skills in database such as SQL, MongoDB and Oracle.<br/><br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I am good at the English language. I am a responsible person, work hard and have good teamwork. I love acquiring new knowledge, especially in areas related to Full-Stack, Frontend, Backend, Big Data, AI, and Machine Learning..<br/><br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I was an intern and coop at Seagate for 6 months. I wrote a website for production line by using React JS as frontend, Flask as backend and Oracle as database<br/><br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I joined the work and travel program (USA) after finishing my studies, and it allowed me to practice English language skills as well as various soft skills such as patience, diligence, adaptability, problem-solving, and gained many experiences.
+
     </div>,
     resume: 'https://example.com',
     social: {
@@ -75,6 +77,22 @@ const projects = [
       sourceCode: 'https://github.com',
       livePreview: 'https://github.com',
     },
+    {
+      name: 'Project 5',
+      description:
+        'Using YOLOv7 to train AI to distinguish 3 dog breeds between German Shepherd, Golden Retriever and Siberian Husky by using Transfer learning techniques',
+      stack: ['YOLOv7', 'Roboflow', 'Machine Learning'],
+      sourceCode: 'https://github.com',
+      livePreview: 'https://github.com',
+    },
+    {
+      name: 'Project 6',
+      description:
+        'The final project of my group is to create a chatbot for Q&A related to our faculty, using ChatGPT 4 for training and ReactJS, Python 3, and MySQL for full-stack development.',
+      stack: ['ChatGPT4', 'Python3', 'ReactJS', 'MySQL'],
+      sourceCode: 'https://github.com',
+      livePreview: 'https://github.com',
+    },
 ]
 
 const skills = [
@@ -92,6 +110,8 @@ const skills = [
     'Flask',
     'Python 3',
     'YOLOv7',
+    'Roboflow',
+    'ChatGPT4',
     'Linux Ubuntu',
     'Arduino',
     'Oracle',
